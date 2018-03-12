@@ -20,7 +20,7 @@ from SeedCast import views
 import Masters.views as some
 from django.conf.urls.static import static
 from django.conf import settings
-from controlcenter.views import controlcenter
+
 
 
 admin.autodiscover()
