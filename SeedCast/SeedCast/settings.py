@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'jet',
     'import_export',
     'Masters',
+    'Reports',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -44,7 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'Reports',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
